@@ -1,5 +1,5 @@
 import React from 'react';
-import LoginPanel from './LoginPanel';
+import LoginPanel from '../components/LoginPanel.js';
 import AddBookPanel from './AddBookPanel'
 import AdminBookListing from './AdminBookListing'
 import { fbase } from '../fbase'

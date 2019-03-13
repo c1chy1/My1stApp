@@ -37,11 +37,11 @@ body {
 }
 
 .bookView p {
-  font-size: 12px;
+  font-size: 11px;
   border: 1px solid black;
   border-radius: 5px;
-  padding-left: 5px;
-  padding-top: 5px;
+  padding: 5px;
+
   margin: 5px;
   height: 100px;
   width: 130px;

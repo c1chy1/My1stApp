@@ -1,6 +1,8 @@
 import React from 'react';
-import { connect } from 'react-redux'
+import {connect} from 'react-redux'
 import {sendBookToEditAction} from '../store/actions'
+import Button from 'antd/lib/button';
+
 
 export class BookView extends React.Component {
 
@@ -11,11 +13,11 @@ export class BookView extends React.Component {
           <span>{this.props.book.name} {this.props.book.author}</span>
         </div>
         <div className="col-xs-2">
-          <button className="btn btn-danger" onClick={ (event) => this.props.sendBookToEdit(this.props.book)}>Edit</button>
+          <Button className="ant-btn-dagger" type ="danger" onClick={ (event) => this.props.sendBookToEdit(this.props.book)}>Edit</Button>
         </div>
 
         <div className="col-xs-2">
-          <button className="btn btn-danger" onClick={ (event) => this.props.removeFromInventory(this.props.book.name)}>Remove</button>
+          <Button className="ant-btn-dagger" type ="danger"onClick={ (event) => this.props.removeFromInventory(this.props.book.name)}>Remove</Button>
         </div>
       </div>
     );

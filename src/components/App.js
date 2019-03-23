@@ -3,6 +3,7 @@ import Order from './Order';
 import Header from './Header';
 import Inventory from './Inventory';
 import Footer from './Footer';
+import 'antd/dist/antd.css';
 
 import '../index.css';
 
@@ -11,10 +12,9 @@ class App extends React.Component {
     constructor() {
         super();
         this.state = {
-            order : []
+            order : [],
         }
     }
-
 
     addToOrder = (book) => {
         this.setState({
@@ -22,23 +22,31 @@ class App extends React.Component {
         })
     }
 
-    removeFromOrder = (title) => {
+    removeFromOrder = () =>{
+
         this.setState({
-            order : this.state.order.filter( book => title!==book.name )
-        })
+            order : this.state.order.splice(1)
+    })
     }
 
     render() {
         return (
             <div className="app container">
                 <Header />
-                <div className="row">
-                    <Order order={this.state.order} removeFromOrder={this.removeFromOrder}/>
-                    <Inventory books={this.state.books} addToOrder={this.addToOrder}/>
+                <div className="row middle">
+                    <Order
+                      order={this.state.order}
+                      removeFromOrder={this.removeFromOrder}
+                    />
+                    <Inventory
+                      books={this.state.books}
+                      addToOrder={this.addToOrder}/>
                 </div>
-                <div><Footer/></div>
-            </div>
+                    <Footer/>
+                    </div>
+
         )
+
     }
 
 }

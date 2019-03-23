@@ -2,7 +2,8 @@ import React from 'react';
 import {firebaseApp} from '../fbase';
 
 
-export default class LoginPanel extends React.Component {
+
+class LoginPanel extends React.Component {
 
  constructor() {
    super();
@@ -40,11 +41,11 @@ this.state = {
         <input type="password"  id="password_bs" name="password" className="form-control"
                onChange={this.handleLoginChange} value={this.state.password}/>
         <button type="submit" className="btn btn-primary">Log in</button>
-      </form>
+        </form>
     )
   }
 
 }
 
 
-
+export default LoginPanel;

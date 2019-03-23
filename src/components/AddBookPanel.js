@@ -1,9 +1,12 @@
 import React from 'react';
 import {connect} from 'react-redux'
 import {updateBookAction} from '../store/actions'
+import Back from './Back'
+import { Checkbox } from 'antd';
+
+
 
 class AddBook extends React.Component {
-
 
   addNewBook = (event) => {
 
@@ -38,7 +41,7 @@ class AddBook extends React.Component {
             onStock: true,
             image: '',
             genre: '',
-            price: ''
+            price: Number
         }
       })
     }
@@ -101,7 +104,7 @@ event.target.reset();
             <option value="Horror">Horror</option>
           </select>
           <div className="form-group">
-            <input type="checkbox" id="onStock" name="onStock" className="form-check-input"
+            <Checkbox type="checkbox" id="onStock"  name="onStock"
                    onChange={this.handleChange} value={this.props.book.onStock}/>
             <label htmlFor="onStock" className="form-check-label">On stock</label>
           </div>
@@ -110,6 +113,7 @@ event.target.reset();
                    onChange={this.handleChange} value={this.props.book.image}/>
           </div>
           <button type="submit" className="btn btn-primary">{label}</button>
+          <Back/>
 
         </form>
           </div>

@@ -1,8 +1,10 @@
 import React from 'react';
+import Button from 'antd/lib/button';
 
 export default class BookView extends React.Component {
 
     render() {
+
         return (
             <div className="bookView row">
                 <div className="col-xs-4">
@@ -17,7 +19,7 @@ export default class BookView extends React.Component {
                     </div>
               <div className="col-xs-4"><p>{this.props.book.description}</p></div>
                 <div className="col-xs-4">
-                    <button className="btn btn-primary" onClick={(event) => this.props.addToOrder(this.props.book)}>Add to Order</button>
+                    <Button className="ant-btn-dagger" type ="danger" onClick={(event) => this.props.addToOrder(this.props.book)}>Add to Order</Button>
                 </div>
             </div>
         );

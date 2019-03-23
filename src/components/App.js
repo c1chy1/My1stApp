@@ -4,7 +4,7 @@ import Header from './Header';
 import Inventory from './Inventory';
 import Footer from './Footer';
 import '../index.css';
-
+import '../antd.css';
 class App extends React.Component {
 
     constructor() {

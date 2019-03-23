@@ -3,7 +3,6 @@ import Order from './Order';
 import Header from './Header';
 import Inventory from './Inventory';
 import Footer from './Footer';
-import '../antd.css';
 import '../index.css';
 
 class App extends React.Component {

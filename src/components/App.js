@@ -4,8 +4,6 @@ import Header from './Header';
 import Inventory from './Inventory';
 import Footer from './Footer';
 import '../antd.css';
-import 'antd/dist/antd.less';
-
 import '../index.css';
 
 class App extends React.Component {

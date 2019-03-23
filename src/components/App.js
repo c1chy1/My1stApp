@@ -3,7 +3,8 @@ import Order from './Order';
 import Header from './Header';
 import Inventory from './Inventory';
 import Footer from './Footer';
-import 'antd/dist/antd.css';
+import '../antd.css';
+import 'antd/dist/antd.less';
 
 import '../index.css';
 

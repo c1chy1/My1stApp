@@ -5,7 +5,28 @@ import Inventory from './Inventory';
 import Footer from './Footer';
 import '../index.css';
 import '../antd.css';
+
 class App extends React.Component {
+
+
+    authenticate(){
+        return new Promise(resolve => setTimeout(resolve, 2000))
+    }
+
+    componentDidMount(){
+        this.authenticate().then(() => {
+            const ele = document.getElementById('ipl-progress-indicator')
+            if(ele){
+                // fade out
+                ele.classList.add('available')
+                setTimeout(() => {
+                    // remove from DOM
+                    ele.outerHTML = ''
+                }, 2000)
+            }
+        })
+    }
+
 
     constructor() {
         super();

@@ -1,15 +1,15 @@
 {
-  "main.css": "/bookstore/static/css/main.658c3385.chunk.css",
-  "main.js": "/bookstore/static/js/main.71ea6e52.chunk.js",
-  "main.js.map": "/bookstore/static/js/main.71ea6e52.chunk.js.map",
-  "runtime~main.js": "/bookstore/static/js/runtime~main.2e2d1535.js",
-  "runtime~main.js.map": "/bookstore/static/js/runtime~main.2e2d1535.js.map",
-  "static/css/2.0121027a.chunk.css": "/bookstore/static/css/2.0121027a.chunk.css",
-  "static/js/2.78bc4d31.chunk.js": "/bookstore/static/js/2.78bc4d31.chunk.js",
-  "static/js/2.78bc4d31.chunk.js.map": "/bookstore/static/js/2.78bc4d31.chunk.js.map",
-  "index.html": "/bookstore/index.html",
-  "precache-manifest.40d1cd20e3c24606db1850d0ac07fabe.js": "/bookstore/precache-manifest.40d1cd20e3c24606db1850d0ac07fabe.js",
-  "service-worker.js": "/bookstore/service-worker.js",
-  "static/css/2.0121027a.chunk.css.map": "/bookstore/static/css/2.0121027a.chunk.css.map",
-  "static/css/main.658c3385.chunk.css.map": "/bookstore/static/css/main.658c3385.chunk.css.map"
+  "main.css": "/c1chy1/My1stApp/static/css/main.658c3385.chunk.css",
+  "main.js": "/c1chy1/My1stApp/static/js/main.724f69c6.chunk.js",
+  "main.js.map": "/c1chy1/My1stApp/static/js/main.724f69c6.chunk.js.map",
+  "runtime~main.js": "/c1chy1/My1stApp/static/js/runtime~main.d66c9c53.js",
+  "runtime~main.js.map": "/c1chy1/My1stApp/static/js/runtime~main.d66c9c53.js.map",
+  "static/css/2.0121027a.chunk.css": "/c1chy1/My1stApp/static/css/2.0121027a.chunk.css",
+  "static/js/2.909dad11.chunk.js": "/c1chy1/My1stApp/static/js/2.909dad11.chunk.js",
+  "static/js/2.909dad11.chunk.js.map": "/c1chy1/My1stApp/static/js/2.909dad11.chunk.js.map",
+  "index.html": "/c1chy1/My1stApp/index.html",
+  "precache-manifest.ae78523ab7495aa61956dea98507ecd7.js": "/c1chy1/My1stApp/precache-manifest.ae78523ab7495aa61956dea98507ecd7.js",
+  "service-worker.js": "/c1chy1/My1stApp/service-worker.js",
+  "static/css/2.0121027a.chunk.css.map": "/c1chy1/My1stApp/static/css/2.0121027a.chunk.css.map",
+  "static/css/main.658c3385.chunk.css.map": "/c1chy1/My1stApp/static/css/main.658c3385.chunk.css.map"
 }
